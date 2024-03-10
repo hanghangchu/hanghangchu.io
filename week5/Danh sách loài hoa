@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Danh sách sinh viên </title>
+      <h1 > Danh sách sinh viên </h1> 
+  <style type="text/css">
+        .ProductDetails { display: none; }
+    .Product img {
+      width: 150px;
+      height: 150px;
+      border-radius: 30px;
+      box-shadow: 5px 5px 10px #aaa;
+    }
+    .ProductName {font-weight: bold;}
+    .ProductPrice {font-style: italic;}
+    .ProductPrice:before {content: " - ";}
+    .Product {
+      text-align: center;
+      width: 180px; 
+      margin: 20px 20px;
+      float: left;
+      cursor: pointer;
+    }
+    .Product:hover .ProductDetails {display: block; }
+  </style>
+</head>
+<body>
+<div class="Product">
+    <img src="https://anvientv.com.vn/uploads/upload/1671805137_anh-huong-duong-nghe-thuat(6).jpg" alt="Hoa Hướng Dương" />
+    <div class="ProductDetails">
+      <span class="ProductName">Hoa Hướng Dương</span>
+      <span class="ProductPrice">$2.0</span>
+    </div>
+    </div>
+<div class="Product">
+    <img src="https://anvientv.com.vn/uploads/upload/1673574526_hinh-nen-hoa-tulip-anvien.jpg" alt="Hoa Tulip" />
+    <div class="ProductDetails">
+      <span class="ProductName">Hoa Tulip</span>
+      <span class="ProductPrice">$1.0</span>
+    </div>
+    </div>
+<div class="Product">
+     <img src="https://cdn.alongwalk.info/vn/wp-content/uploads/2023/04/19040211/89-hinh-anh-hoa-cam-tu-cau-dep-nhieu-mau-sac-day-suc-song1681826531.jpg" alt="Hoa Cẩm Tú Cầu" />
+     <div class="ProductDetails">
+        <span class="ProductName">Hoa Cẩm Tú Cầu</span>
+       <span class="ProductPrice">$2.5</span>
+    </div>
+     </div>
+<div class="Product">
+    <img src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/08/hinh-nen-hoa-sen.jpg" alt="Hoa Sen" />
+     <div class="ProductDetails">
+        <span class="ProductName">Hoa sen</span>
+        <span class="ProductPrice">$1.5</span>
+    </div>
+    </div>
+<div class="Product">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzG23jQ0Id_WWoAPOmIbZ3Th4qTDqvaGB-QBfWjBo8bue0D5nc0Y6UGAG-Dp8l8XSfkzo&usqp=CAU" alt="Hoa Đồng Tiền" />
+    <div class="ProductDetails">
+        <span class="ProductName">Hoa Đồng Tiền</span>
+        <span class="ProductPrice">$1.0</span>
+    </div>
+    </div>
+<div class="Product">
+     <img src="https://i.pinimg.com/736x/e1/fa/a6/e1faa6c56299b04e873eb3fbf457274f.jpg" alt="Hoa Nhài" />
+    <div class="ProductDetails">
+         <span class="ProductName">Hoa Nhài</span>
+        <span class="ProductPrice">$2.5</span>
+    </div>
+    </div>
+<div class="Product">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVun7EkGFsjPIMq6PiBAqHR5uUVe8oiuSPPw&usqp=CAU" alt="Hoa Hồng Trắng" />
+    <div class="ProductDetails">
+         <span class="ProductName">Hoa Hồng Trắng</span>
+         <span class="ProductPrice">$1.7</span>
+    </div>
+    </div>
+<div class="Product">
+    <img src="https://lh4.googleusercontent.com/H7iRs47uL_k22vf9JRHf-hc3d-ZW05WQX9d-MYGISxg3ab7omb5XpqRnTHIxq8BaQx8A-xiFfNfk2U7X33hp0GCnPKMRMsIZ5SgZ1dbzOfP6ycs13Cray0MFuPqAbcByfvbvLuZL" alt="Hoa Hồng Vàng" />
+    <div class="ProductDetails">
+        <span class="ProductName">Hoa Hồng Vàng</span>
+        <span class="ProductPrice">$1.7</span>
+    </div>
+    </div>
+<div class="Product">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcdZ5zEU2Cu1yMPY3BWy3xB0tgYNn9MhJH6m2Go7ndQcnJs8Zo_4tjHWckxXOhhunSGvw&usqp=CAU" alt="Hoa Hồng Xanh" />
+    <div class="ProductDetails">
+        <span class="ProductName">Hoa Hồng Xanh</span>
+        <span class="ProductPrice">$1.7</span>
+    </div>
+     </div>
+ <div class="Product">
+     <img src="https://tranhnamdinh.vn/upload/images/1387264570_hoa-cuc-vang.jpg" alt="Hoa Cúc Vàng"/>
+     <div class="ProductDetails">
+        <span class="ProductName">Hoa Cúc Vàng</span>
+       <span class="ProductPrice">$1.0</span>
+     </div>
+    </div>
+                                         
+  <div class="Product">
